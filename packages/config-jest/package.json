@@ -1,0 +1,17 @@
+{
+  "name": "@repo/config-jest",
+  "version": "0.0.0",
+  "private": true,
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "lint": "biome lint .",
+    "format": "biome check . --write"
+  },
+  "devDependencies": {
+    "@repo/config-biome": "*",
+    "@repo/config-typescript": "*"
+  }
+}
