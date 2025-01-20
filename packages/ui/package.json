@@ -8,12 +8,13 @@
     "./code": "./src/code.tsx"
   },
   "scripts": {
-    "lint": "eslint . --max-warnings 0",
+    "lint": "biome lint .",
+    "format": "biome check . --write",
     "generate:component": "turbo gen react-component",
     "check-types": "tsc --noEmit"
   },
   "devDependencies": {
-    "@repo/eslint-config": "*",
+    "@repo/biome-config": "*",
     "@repo/typescript-config": "*",
     "@turbo/gen": "^1.12.4",
     "@types/node": "^20.11.24",
