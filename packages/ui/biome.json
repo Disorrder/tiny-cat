@@ -1,7 +1,3 @@
 {
-  "extends": ["../config-biome/base.json"],
-  "formatter": {
-    "indentStyle": "space",
-    "indentWidth": 2
-  }
+  "extends": ["../config-biome/base.json"]
 }
