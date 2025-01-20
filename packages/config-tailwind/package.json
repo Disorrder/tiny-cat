@@ -1,0 +1,17 @@
+{
+  "name": "@repo/config-tailwind",
+  "version": "0.0.0",
+  "private": true,
+  "exports": {
+    ".": "./tailwind.config.ts"
+  },
+  "scripts": {
+    "lint": "biome lint .",
+    "format": "biome check . --write"
+  },
+  "devDependencies": {
+    "@repo/config-biome": "*",
+    "@repo/config-typescript": "*",
+    "tailwindcss": "^3.4.17"
+  }
+}
