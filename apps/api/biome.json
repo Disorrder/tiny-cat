@@ -1,3 +1,8 @@
 {
-  "extends": ["../../packages/config-biome/base.json"]
+  "extends": ["../../packages/config-biome/base.json"],
+  "javascript": {
+    "parser": {
+      "unsafeParameterDecoratorsEnabled": true
+    }
+  }
 }
