@@ -3,6 +3,7 @@
   "extends": "./base.json",
   "compilerOptions": {
     "allowSyntheticDefaultImports": true,
+    "declaration": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "forceConsistentCasingInFileNames": false,
@@ -14,7 +15,8 @@
     "removeComments": true,
     "skipLibCheck": true,
     "sourceMap": true,
+    "strictBindCallApply": false,
     "strictNullChecks": false,
-    "strictBindCallApply": false
+    "target": "es2017"
   }
 }
